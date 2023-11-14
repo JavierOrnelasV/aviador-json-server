@@ -1,13 +1,14 @@
 {
-	"purchases": 
+	"purchases": {
 		"index": [
 			{ "id": 1, "number": 1, "provider": "SEPSA SERVICIOS INTEGRALES SA DE CV", "order_date": "2023-11-25", "invoice_date": "2023-11-25", "sum": 1000.50, "expense_number": "500" },
 			{ "id": 2, "number": 2, "provider": "SEPSA SERVICIOS INTEGRALES SA DE CV", "order_date": "2023-11-26", "invoice_date": "2023-11-26", "sum": 873.75, "expense_number": "550" }
 		],
 		"new": {
 			"providers": [
-				{ "id": 1, "name": "SEPSA SERVICIOS INTEGRALES SA DE CV"},
+				{ "id": 1, "name": "SEPSA SERVICIOS INTEGRALES SA DE CV" },
 				{ "id": 2, "name": "PROVEEDOR DE PRUEBA" }
 			]
 		}
+	}
 }
