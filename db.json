@@ -1,5 +1,5 @@
 {
-	"purchases": {[
+	"purchases": [
 		{
 			"id": 1,
 			"number": 1,
@@ -17,6 +17,6 @@
 			"invoice_date": "2023-11-26",
 			"sum": 873.75,
 			"expense_number": "550"	
-		}
-	]}
+		},
+	]
 }
