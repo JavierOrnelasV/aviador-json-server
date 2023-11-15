@@ -1,29 +1,84 @@
 {
-	"purchases_index": {
-		"status": 200,
-       		"code": "success",	       
-		"data": [
-			{ "id": 1, "number": 1, "provider": "SEPSA SERVICIOS INTEGRALES SA DE CV", "order_date": "2023-11-25", "invoice_date": "2023-11-25", "sum": 1000.50, "expense_number": "500" },
-			{ "id": 2, "number": 2, "provider": "SEPSA SERVICIOS INTEGRALES SA DE CV", "order_date": "2023-11-26", "invoice_date": "2023-11-26", "sum": 873.75, "expense_number": "550" }
-		]
-	},
-	"purchases_new": {
-		"status": 200,
-		"code": "success",
-		"data": {
-			"providers": [
-
-				{ "id": 1, "name": "SEPSA SERVICIOS INTEGRALES SA DE CV" },
-				{ "id": 2, "name": "PROVEEDOR DE PRUEBA" }
-			]
-		}
-	},
-	"purchases/1/products": {
-		"status": 200,
-		"code": "success",
-		"data": [
-			{ "id": 1, "brand": "Marca de Prueba", "category": "Equipo", "store": "PIO X", "name": "Chaleco", "serialNumber": "sum": 200.15, "comments": "chaleco antibalas", "orderDate": "2023-11-10", "terminationDate": null }
-		]
-	}
-
+  "purchases_index": {
+    "status": 200,
+    "code": "success",
+    "data": [
+      {
+        "id": 1,
+        "number": 1,
+        "provider": "SEPSA SERVICIOS INTEGRALES SA DE CV",
+        "order_date": "2023-11-25",
+        "invoice_date": "2023-11-25",
+        "sum": 1000.5,
+        "expense_number": "500"
+      },
+      {
+        "id": 2,
+        "number": 2,
+        "provider": "SEPSA SERVICIOS INTEGRALES SA DE CV",
+        "order_date": "2023-11-26",
+        "invoice_date": "2023-11-26",
+        "sum": 873.75,
+        "expense_number": "550"
+      }
+    ]
+  },
+  "purchases_new": {
+    "status": 200,
+    "code": "success",
+    "data": {
+      "providers": [
+        { "id": 1, "name": "SEPSA SERVICIOS INTEGRALES SA DE CV" },
+        { "id": 2, "name": "PROVEEDOR DE PRUEBA" }
+      ]
+    }
+  },
+  "purchases/1/products": {
+    "status": 200,
+    "code": "success",
+    "data": [
+      {
+        "id": 1,
+        "brand": "Samsung",
+        "category": "Teléfono",
+        "store": "PIO X",
+        "name": "S23",
+        "serialNumber": "010103",
+        "sum": 400.15,
+        "comments": "",
+        "orderDate": "2023-11-10",
+        "terminationDate": null
+      },
+      {
+        "id": 2,
+        "brand": "Motorola",
+        "category": "Teléfono",
+        "store": "PIO X",
+        "name": "G 84",
+        "serialNumber": "010201",
+        "sum": 200.0,
+        "comments": "celular",
+        "orderDate": "2023-11-12",
+        "terminationDate": null
+      }
+    ]
+  },
+  "purchases/2/products": {
+    "status": 200,
+    "code": "success",
+    "data": [
+      {
+        "id": 3,
+        "brand": "Samsung",
+        "category": "Teléfono",
+        "store": "PIO X",
+        "name": "S23",
+        "serialNumber": "010104",
+        "sum": 400.15,
+        "comments": "",
+        "orderDate": "2023-11-16",
+        "terminationDate": null
+      }
+    ]
+  }
 }
