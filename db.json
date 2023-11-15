@@ -33,7 +33,7 @@
       ]
     }
   },
-  "purchases/1/products": {
+  "purchases_1_products": {
     "status": 200,
     "code": "success",
     "data": [
@@ -63,7 +63,7 @@
       }
     ]
   },
-  "purchases/2/products": {
+  "purchases_2_products": {
     "status": 200,
     "code": "success",
     "data": [
