@@ -17,5 +17,13 @@
 				{ "id": 2, "name": "PROVEEDOR DE PRUEBA" }
 			]
 		}
+	},
+	"purchases/1/products": {
+		"status": 200,
+		"code": "success",
+		"data": [
+			{ "id": 1, "brand": "Marca de Prueba", "category": "Equipo", "store": "PIO X", "name": "Chaleco", "serialNumber": "sum": 200.15, "comments": "chaleco antibalas", "orderDate": "2023-11-10", "terminationDate": null }
+		]
 	}
+
 }
