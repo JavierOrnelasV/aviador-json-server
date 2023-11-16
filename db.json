@@ -9,8 +9,9 @@
         "provider": "SEPSA SERVICIOS INTEGRALES SA DE CV",
         "order_date": "2023-11-25",
         "invoice_date": "2023-11-25",
-        "sum": 1000.5,
-        "expense_number": "500"
+        "sum": 25000.0,
+        "expense_number": "500",
+        "purchase_type": 1
       },
       {
         "id": 2,
@@ -18,8 +19,19 @@
         "provider": "SEPSA SERVICIOS INTEGRALES SA DE CV",
         "order_date": "2023-11-26",
         "invoice_date": "2023-11-26",
-        "sum": 873.75,
-        "expense_number": "550"
+        "sum": 12000.0,
+        "expense_number": "550",
+        "purchase_type": 1
+      },
+      {
+        "id": 3,
+        "number": 3,
+        "provider": "SEPSA SERVICIOS INTEGRALES SA DE CV",
+        "order_date": "2023-11-30",
+        "invoice_date": "2023-11-30",
+        "sum": 315000.0,
+        "expense_number": "550",
+        "purchase_type": 2
       }
     ]
   },
@@ -44,9 +56,9 @@
         "store": "PIO X",
         "name": "S23",
         "serialNumber": "010103",
-        "sum": 400.15,
+        "sum": 25000.0,
         "comments": "",
-        "orderDate": "2023-11-10",
+        "orderDate": "2023-11-25",
         "terminationDate": null
       },
       {
@@ -56,27 +68,27 @@
         "store": "PIO X",
         "name": "G 84",
         "serialNumber": "010201",
-        "sum": 200.0,
+        "sum": 12000.0,
         "comments": "celular",
-        "orderDate": "2023-11-12",
+        "orderDate": "2023-11-26",
         "terminationDate": null
       }
     ]
   },
-  "purchases_2_products": {
+  "purchases_3_vehicles": {
     "status": 200,
     "code": "success",
     "data": [
       {
         "id": 3,
-        "brand": "Samsung",
-        "category": "Teléfono",
+        "brand": "Nissan",
+        "model": "March",
         "store": "PIO X",
-        "name": "S23",
-        "serialNumber": "010104",
-        "sum": 400.15,
+        "year": "S23",
+        "licensePlates": "MFNS-452",
+        "sum": 315000.0,
         "comments": "",
-        "orderDate": "2023-11-16",
+        "orderDate": "2023-11-30",
         "terminationDate": null
       }
     ]
