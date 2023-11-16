@@ -11,7 +11,8 @@
         "invoice_date": "2023-11-25",
         "sum": 25000.0,
         "expense_number": "500",
-        "purchase_type": 1
+        "type": 1,
+        "type_name": "Productos"
       },
       {
         "id": 2,
@@ -21,7 +22,8 @@
         "invoice_date": "2023-11-26",
         "sum": 12000.0,
         "expense_number": "550",
-        "purchase_type": 1
+        "type": 1,
+        "type_name": "Productos"
       },
       {
         "id": 3,
@@ -31,7 +33,8 @@
         "invoice_date": "2023-11-30",
         "sum": 315000.0,
         "expense_number": "550",
-        "purchase_type": 2
+        "type": 2,
+        "type_name": "Vehículos"
       }
     ]
   },
