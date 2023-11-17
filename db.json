@@ -11,6 +11,7 @@
         "invoice_date": "2023-11-25",
         "sum": 40000.0,
         "expense_number": "500",
+        "invoice": "500.pdf",
         "type": 1,
         "type_name": "Productos"
       },
@@ -22,6 +23,7 @@
         "invoice_date": "2023-11-26",
         "sum": 12000.0,
         "expense_number": "550",
+        "invoice": "550.pdf",
         "type": 1,
         "type_name": "Productos"
       },
@@ -32,7 +34,8 @@
         "order_date": "2023-11-30",
         "invoice_date": "2023-11-30",
         "sum": 315000.0,
-        "expense_number": "550",
+        "expense_number": "551",
+        "invoice": "551.pdf",
         "type": 2,
         "type_name": "Vehículos"
       }
@@ -74,24 +77,6 @@
         "sum": 15000.0,
         "comments": "celular",
         "orderDate": "2023-11-25",
-        "terminationDate": null
-      }
-    ]
-  },
-  "purchases_2_products": {
-    "status": 200,
-    "code": "success",
-    "data": [
-      {
-        "id": 1,
-        "brand": "Motorola",
-        "category": "Teléfono",
-        "store": "PIO X",
-        "name": "G 84",
-        "serialNumber": "010202",
-        "sum": 12000.0,
-        "comments": "",
-        "orderDate": "2023-11-26",
         "terminationDate": null
       }
     ]
