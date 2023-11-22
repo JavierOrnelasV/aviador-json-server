@@ -117,9 +117,9 @@
           { "id": 2, "name": "OTRO" }
         ],
         "purchases": [
-          {"id": 1, "expense_number": "500"},
-          {"id": 2, "expense_number": "550"},
-          {"id": 3, "expense_number": "551"},
+          { "id": 1, "expense_number": "500" },
+          { "id": 2, "expense_number": "550" },
+          { "id": 3, "expense_number": "551" }
         ]
       }
     ]
