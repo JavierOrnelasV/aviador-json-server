@@ -102,26 +102,24 @@
   "purchases_products_new": {
     "status": 200,
     "code": "success",
-    "data": [
-      {
-        "brands": [
-          { "id": 1, "name": "Samsung" },
-          { "id": 2, "name": "Motorola" }
-        ],
-        "categories": [
-          { "id": 1, "name": "Teléfono" },
-          { "id": 2, "name": "Computadora" }
-        ],
-        "stores": [
-          { "id": 1, "name": "PIO X" },
-          { "id": 2, "name": "OTRO" }
-        ],
-        "purchases": [
-          { "id": 1, "expense_number": "500" },
-          { "id": 2, "expense_number": "550" },
-          { "id": 3, "expense_number": "551" }
-        ]
-      }
-    ]
+    "data": {
+      "brands": [
+        { "id": 1, "name": "Samsung" },
+        { "id": 2, "name": "Motorola" }
+      ],
+      "categories": [
+        { "id": 1, "name": "Teléfono" },
+        { "id": 2, "name": "Computadora" }
+      ],
+      "stores": [
+        { "id": 1, "name": "PIO X" },
+        { "id": 2, "name": "OTRO" }
+      ],
+      "purchases": [
+        { "id": 1, "expense_number": "500" },
+        { "id": 2, "expense_number": "550" },
+        { "id": 3, "expense_number": "551" }
+      ]
+    }
   }
 }
