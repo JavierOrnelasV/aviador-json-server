@@ -11,7 +11,7 @@
         "invoice_date": "2023-11-25",
         "sum": 40000.0,
         "expense_number": "500",
-        "invoice": "500.pdf",
+        "invoice": "https://www.africau.edu/images/default/sample.pdf",
         "type": 1,
         "type_name": "Productos"
       },
@@ -23,7 +23,7 @@
         "invoice_date": "2023-11-26",
         "sum": 12000.0,
         "expense_number": "550",
-        "invoice": "550.pdf",
+        "invoice": "https://www.africau.edu/images/default/sample.pdf",
         "type": 1,
         "type_name": "Productos"
       },
@@ -35,7 +35,7 @@
         "invoice_date": "2023-11-30",
         "sum": 315000.0,
         "expense_number": "551",
-        "invoice": "551.pdf",
+        "invoice": "https://www.africau.edu/images/default/sample.pdf",
         "type": 2,
         "type_name": "Vehículos"
       }
